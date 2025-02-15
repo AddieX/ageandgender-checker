@@ -9,14 +9,14 @@ if age >= 18 and (gender == "male" or gender == "female"):
         last_name = str(input("2nd name: "))
 
         print(
-            f"Welcome, Mr {first_name.capitalize()} {last_name.capitalize()} you can enter the room"
+            f"Welcome, Mr {first_name.capitalize()} {last_name.capitalize()} you able to pass"
         )
         print(
             "Your full inforamtions:\n",
             {
-                "First Name": first_name,
-                "Last Name": last_name,
-                "Gender": gender,
+                "First Name": first_name.capitalize(),
+                "Last Name": last_name.capitalize(),
+                "Gender": gender.capitalize(),
                 "Age": age,
             },
         )
@@ -27,7 +27,7 @@ if age >= 18 and (gender == "male" or gender == "female"):
         last_name = str(input("2nd name: "))
 
         print(
-            f"Welcome, Miss {first_name.capitalize()} {last_name.capitalize()} you can enter the room"
+            f"Welcome, Miss {first_name.capitalize()} {last_name.capitalize()} you able to pass"
         )
         print(
             "Your full inforamtions:\n",
@@ -35,10 +35,10 @@ if age >= 18 and (gender == "male" or gender == "female"):
                 "First Name": first_name.capitalize(),
                 "Last Name": last_name.capitalize(),
                 "Gender": gender.capitalize(),
-                "Age": str(age).capitalize(),
+                "Age": age,
             },
         )
     else:
         print("Invalid can't enter!")
 else:
-    print("You'r too young cant enter this room!")
+    print("You'r too young can not be able to pass!")
