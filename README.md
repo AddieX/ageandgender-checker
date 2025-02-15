@@ -1,1 +1,1 @@
-# a first program i used fuctions innet 
+# a first program i used functions innet 
