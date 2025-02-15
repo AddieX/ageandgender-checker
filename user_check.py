@@ -12,7 +12,7 @@ if age >= 18 and (gender == "male" or gender == "female"):
             f"Welcome, Mr {first_name.capitalize()} {last_name.capitalize()} you able to pass"
         )
         print(
-            "Your full inforamtions:\n",
+            "Your full inforamtions:",
             {
                 "First Name": first_name.capitalize(),
                 "Last Name": last_name.capitalize(),
@@ -30,7 +30,7 @@ if age >= 18 and (gender == "male" or gender == "female"):
             f"Welcome, Miss {first_name.capitalize()} {last_name.capitalize()} you able to pass"
         )
         print(
-            "Your full inforamtions:\n",
+            "Your full inforamtions:",
             {
                 "First Name": first_name.capitalize(),
                 "Last Name": last_name.capitalize(),
